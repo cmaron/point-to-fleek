@@ -31,7 +31,7 @@ function handleText(textNode)
 {
 	var v = textNode.nodeValue;
 
-	v = v.replace(/\On Point\b/g, "On Fleek");
+	v = v.replace(/\bOn Point\b/g, "On Fleek");
 	v = v.replace(/\bOn point\b/g, "On fleek");
 	v = v.replace(/\bon Point\b/g, "on Fleek");
 	v = v.replace(/\bon point\b/g, "on fleek");
